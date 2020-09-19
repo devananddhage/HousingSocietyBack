@@ -12,10 +12,10 @@ namespace WebApi.Models
         [Column(TypeName = "nvarchar(100)")]
         public string Name { get; set; }
 
-        [Column(TypeName = "nvarchar(100)")]
+        [Column(TypeName = "nvarchar(20)")]
         public string ShortName { get; set; }
 
-        [Column(TypeName = "nvarchar(10)")]
+        [Column(TypeName = "nvarchar(15)")]
         public string RegistrationNumber { get; set; }
 
         public Address Address { get; set; }

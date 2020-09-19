@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApi.Models
 {
+    /// <summary>
+    /// Maintenance paid entries goes here.
+    /// </summary>
     public class Maintenance
     {
         public int Id { get; set; }
